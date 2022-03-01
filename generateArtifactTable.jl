@@ -1,3 +1,5 @@
+#This is a script that generates the full reverse table, which projects the Artifact substats back to the exact precision.
+
 using Printf
 
 Data=
@@ -42,7 +44,7 @@ for x in 1:10
         v[i]=nextgen(v[i-1],v[1])
     end
     
-    # append the iter-num
+    # append the iter-counter
     w=repeat([[0f0 0f0;0f0 0f0]],6)
     for i in 1:6
         w[i]=hcat(v[i],repeat([i],length(v[i])))
