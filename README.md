@@ -5,6 +5,10 @@ Tools for Genshin calculation, mostly small script for a specific target. \
 
 ## Lists of tools
 
+- (Important)GenshinDataConverter \
+A tool that Converts JSON file in Dimbreath\\GenshinData into a specific codestyle that can be directly used in your programming Project. Already transferred in this repo https://github.com/hypergraphUniverse/GenshinDataConverter
+一个可以将Dimbreath\\GenshinData中的JSON数据转换成对应数据类型的脚本，输出结果可以直接使用在各类编程软件中。 已经转移到了上述链接指向的仓库中。
+
 - floatTypeValidation \
 The Experiment about the Precision in Genshin(Float32 or Float64) \
 实验验证原神数据精度(Float32还是Float64)
