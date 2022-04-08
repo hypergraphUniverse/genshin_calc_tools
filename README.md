@@ -6,8 +6,8 @@ Tools for Genshin calculation, mostly small script for a specific target. \
 ## Lists of tools
 
 - (Paused)GenshinDataConverter \
-A tool that Converts JSON file in Dimbreath\\GenshinData into a specific codestyle that can be directly used in your programming Project. Already transferred in this repo https://github.com/hypergraphUniverse/GenshinDataConverter. Project now stopped.
-一个可以将Dimbreath\\GenshinData中的JSON数据转换成对应数据类型的脚本，输出结果可以直接使用在各类编程软件中。 已经转移到了上述链接指向的仓库中。项目目前停止。
+A tool that Converts JSON file in Dimbreath\\GenshinData into a specific codestyle that can be directly used in your programming Project. Already transferred in this repo [Dimbreath\\GenshinData](https://github.com/hypergraphUniverse/GenshinDataConverter). Project now stopped. \
+一个可以将[Dimbreath\\GenshinData](https://github.com/hypergraphUniverse/GenshinDataConverter)中的JSON数据转换成对应数据类型的脚本，输出结果可以直接使用在各类编程软件中。 已经转移到了上述链接指向的仓库中。项目目前停止。
 
 - **floatTypeValidation** \
 The Experiment about the Precision in Genshin(Float32 or Float64). \
@@ -22,8 +22,8 @@ A high-precision calculation example on my own Hutao. Please refers to https://b
 一个高精度计算的案例，用的是我的胡桃，请前往米游社上述链接查看对比。
 
 - **substat_precision_research** \
-A all-round analysis about the precison of substat display. Also includes output. \
-一个非常详尽的分析圣遗物副词条的工具，同时附上了输出。
+A all-round analysis about the precison of substat display. Also includes output. Please refers to the [Article in NGA](https://nga.178.com/read.php?tid=31391075) for details.\
+一个非常详尽的分析圣遗物副词条的工具，同时附上了输出。请参照 [NGA《精确运算论》](https://nga.178.com/read.php?tid=31391075)第一版了解内容
   - substat_precision_research.jl \
   Main Program. It is alreadly nearly unreadable because I didn't have a clear planning about what it should do, so the code grows like shit mountain. Still works. \
   主程序。因为没有对功能进行规划，所以在不断扩展功能最终变成了一个屎山。仍然可用（有没有bug，修不修得起就不敢保证了）
